@@ -5,10 +5,10 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
-const greet = (name) => console.log(`Ciao ${name}`);
+const greet = (name) => `Ciao ${name}`;
 
 // Invoca la funzione qui e stampa il risultato in console
 
-greet(userName);
+console.log(greet(userName));
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
